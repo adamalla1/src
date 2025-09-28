@@ -42,13 +42,3 @@ public class Segment3D {
         System.out.println("Longueur: " + longueur());
     }
 }
-
-// Classe de test pour Segment3D
-public class TestSegment3D {
-    public static void main(String[] args) {
-        Segment3D s1 = new Segment3D(2.5, 4, 3, 13, 5.6, 2);
-        
-        System.out.println("=== Segment s1 ===");
-        s1.afficher();
-    }
-}
