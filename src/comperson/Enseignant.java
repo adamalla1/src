@@ -31,5 +31,7 @@ public class Enseignant extends Personnel {
  public String toString() {
      return super.toString() + ", Matière : " + matiereEnseignant;
  }
+ 
 }
+
 
